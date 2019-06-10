@@ -1,0 +1,75 @@
+/*
+Colors used:
+Primary Colour (Mauve); #baa3bb;
+Secondary Color (Plum); #3e3542;
+*/
+
+body {
+	background-color: white;
+	font-family: 'shree davanagari', sans-serif;
+	font-size: 16px; /* Sets the font size to 16px */
+	font-weight: 400; /* Sets the font weight to 300 */
+	line-height: 1.6; /* Sets the line-height to 1.6 */
+	color: #00000;
+}
+h1, h2, h3, h4 {
+	line-height: 1.4;
+}
+h1 {
+	font-size: 2.75em;
+	font-weight: 700;
+}
+h2 {
+	font-size: 2.25em;
+	font-weight: 700;
+}
+h3 {
+	font-size: 1.75em;
+	font-weight: 400;
+}
+h4 {
+	font-size: 1.35em;
+	font-weight: 400;
+}
+img {
+	width: 100%
+}
+a {
+	color: #3e3542;
+	text-decoration: none; /* No underlining */
+}
+a:visited { /* visted link */
+	color: #3e3542;
+}
+a:hover,
+a:focus {
+	color: #baa3bb;
+	text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:active { /* selected link */
+	color: #baa3bb;
+}
+.button {
+	display: inline-block;
+	background-color: #baa3bb;
+	color: #3e3542 !important;
+	font-weight: 400;
+	padding: 10px;
+	border-radius: 3px;
+	border-bottom: 2px solid #3e3542; /* width of the border, type, color */
+	transition: 0.2s opacity;
+}
+.button:hover {
+	opacity: 0.8; /* recudes the opacity of the button to 80% */
+	text-decoration: none;
+}
+.button.contact {
+	background-color: transparent;
+	color: #3e3542 !important;
+	text-transform: uppercase;
+	border: 2px solid #3e3542;
+}
+.button.contact:hover {
+	background-color: #3e3542;
+	color: #ffffff !important;
+}
