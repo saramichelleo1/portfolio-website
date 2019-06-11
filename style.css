@@ -15,6 +15,11 @@ Tertiary Color (grey); #d7d7d7;
 	padding: 0 15px;
 }
 
+.container img {
+	width: 50%
+	height: auto;
+}
+
 header {
 	background-color: #d7d7d7;
 	text-align: center;
@@ -33,6 +38,8 @@ body {
 	line-height: 1.6; /* Sets the line-height to 1.6 */
 	color: #00000;
 }
+
+@import url(//fonts.googleapis.com/css?family=raleway);
 
 main {
 	padding-top: 133px;
