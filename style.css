@@ -27,6 +27,7 @@ header {
 	margin: 10px;
 	box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
 	position: fixed;
+	top: 0;
 	width: 100%;
 
 }
@@ -37,9 +38,8 @@ body {
 	font-weight: 400; /* Sets the font weight to 300 */
 	line-height: 1.6; /* Sets the line-height to 1.6 */
 	color: #00000;
+	padding-top: 190px;
 }
-
-@import url(//fonts.googleapis.com/css?family=raleway);
 
 main {
 	padding-top: 133px;
@@ -69,6 +69,13 @@ h4 {
 img {
 	width: 100%
 }
+.aboutimg {
+	max-width: 30%;
+	padding-top: 175px;
+}
+.linkedinimg {
+	max-width: 5%;
+} 
 a {
 	color: #3e3542;
 	text-decoration: none; /* No underlining */
@@ -107,7 +114,7 @@ nav > ul > li {
 }
 
 .logo {
-	max-width: 250px;
+	max-width: 100%;
 }
 
 #linkedin {
