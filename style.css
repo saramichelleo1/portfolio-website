@@ -98,6 +98,7 @@ nav > ul > li {
 	text-transform: uppercase;
 	font-weight: 700;
 	display: inline-block;
+	width: 33%;
 }
 
 #hero {
@@ -115,10 +116,6 @@ nav > ul > li {
 
 .logo {
 	max-width: 100%;
-}
-
-#linkedin {
-	width: 20%;
 }
 .button {
 	display: inline-block;
