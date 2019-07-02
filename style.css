@@ -9,14 +9,17 @@ Tertiary Color (grey); #d7d7d7;
 
 * {
 	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 .container {
 	padding: 0 15px;
+	text-align: center;
 }
 
 .container img {
-	width: 50%;
+	width: 100%;
 	height: auto;
 }
 
@@ -66,6 +69,48 @@ h4 {
 	font-size: 1.35em;
 	font-weight: 400;
 }
+
+.berlin-illustration {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+@keyframes color-change {
+	from {fill: #edc655;}
+	to {fill: #f76414;}
+}
+
+.sun {
+	animation-duration: 4s;
+	animation-name: color-change;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes cloud-move {
+	from {transform: translate(0,50px);}
+	to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+	animation-duration: 30s;
+	animation-name: cloud-move;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+	from {transform: translate(446px, 48px);}
+	to {transform: translate(100px, 48px);}
+}
+
+.cloud-back{
+	animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
 img {
 	width: 100%
 }
@@ -73,6 +118,15 @@ img {
 	max-width: 30%;
 	padding-top: 175px;
 }
+.aboutimg2 {
+	max-width: 30%;
+	padding-top: 30px;
+}
+
+.headshot {
+	max-width: 50%;
+}
+
 .linkedinimg {
 	max-width: 5%;
 } 
@@ -98,14 +152,14 @@ nav > ul > li {
 	text-transform: uppercase;
 	font-weight: 700;
 	display: inline-block;
-	width: 33%;
 }
 
 #hero {
 	background-color: #d7d7d7;
 	padding: 20px 0;
 	display: inline-block;
-	width: 100%
+	width: 100%;
+	text-align: center;
 }
 
 #work .row {
@@ -122,10 +176,12 @@ nav > ul > li {
 	background-color: #baa3bb;
 	color: #3e3542 !important;
 	font-weight: 400;
+	text-decoration: none;
 	padding: 10px;
 	border-radius: 3px;
 	border-bottom: 2px solid #3e3542; /* width of the border, type, color */
-	transition: 0.2s opacity;
+	transition-duration: 0.2s;
+	transition-property: opacity;
 }
 .button:hover {
 	opacity: 0.8; /* recudes the opacity of the button to 80% */
@@ -143,4 +199,58 @@ nav > ul > li {
 }
 .about {
 	width: 30%;
+}
+
+[class*="col-"] {
+	float: left;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.test {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+/*----Medium devices (640px and larger)----*/
+@media only screen and (min-width: 640px) {
+	header {
+		text-align: unset;
+		padding: 20px 0 13px;
+	}
+
+	nav {
+		width: auto;
+		margin-top: 4px;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+}
+
+/*----Large devices (1024px or larger)-----*/
+@media only screen and (min-width: 1024px) {
+	body {
+		font-size: 18px;
+	}
+	#hero span {
+		display: block;
+	}
+
+	.container {
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*-----X-Large devices (1440px or larger)----*/
+@media only screen and (min-width: 1440px) {
+	
 }
