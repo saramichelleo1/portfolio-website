@@ -51,6 +51,7 @@ main {
 
 h1, h2, h3, h4 {
 	line-height: 1.4;
+	text-align: center;
 }
 #hero h1 {
 	text-align: center; /*Centers text */
@@ -60,10 +61,14 @@ h1, h2, h3, h4 {
 h2 {
 	font-size: 2.25em;
 	font-weight: 700;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 h3 {
 	font-size: 1.75em;
 	font-weight: 400;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 h4 {
 	font-size: 1.35em;
@@ -114,6 +119,15 @@ h4 {
 img {
 	width: 100%
 }
+
+p {
+	text-align: center;
+}
+
+.research {
+	max-width: 50%;
+}
+
 .aboutimg {
 	max-width: 30%;
 	padding-top: 175px;
@@ -121,6 +135,16 @@ img {
 .aboutimg2 {
 	max-width: 30%;
 	padding-top: 30px;
+}
+
+.skills {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.contact {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .headshot {
@@ -211,6 +235,11 @@ nav > ul > li {
 	display: table;
 }
 
+.row {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 .test {
 	width: 100%;
 	max-width: 100%;
@@ -239,6 +268,11 @@ nav > ul > li {
 	body {
 		font-size: 18px;
 	}
+
+	.col-md-7 {
+		max-width: 60%;
+	}
+
 	#hero span {
 		display: block;
 	}
@@ -247,6 +281,10 @@ nav > ul > li {
 		max-width: 1200px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.col-lg-5 {
+		max-width: 40%;
 	}
 }
 
