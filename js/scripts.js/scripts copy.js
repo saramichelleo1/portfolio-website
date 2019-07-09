@@ -1,1 +1,0 @@
-console.log("Hi! I'm Sara Michelle and I'm a UX Designer.")
