@@ -30,7 +30,7 @@ header {
 	box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
 	position: fixed;
 	top: 0;
-	width: 100%;
+	width: 1263px;
 
 }
 body {
@@ -287,8 +287,8 @@ nav > ul {
 	header {
 		text-align: unset;
 		padding: 20px 0 13px;
-		max-width: 1005px;
 		min-width: 641px;
+		max-width: 1263px;
 	}
 
 	nav {
