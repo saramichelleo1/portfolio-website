@@ -30,6 +30,8 @@ header {
 	box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
 	position: fixed;
 	top: 0;
+	width: 1263px;
+
 }
 body {
 	background-color: white;
