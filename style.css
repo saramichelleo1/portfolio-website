@@ -31,6 +31,8 @@ header {
 	position: fixed;
 	top: 0;
 	width: 1263px;
+	max-width: 100%;
+	max-height: 300px;
 
 }
 body {
@@ -153,6 +155,7 @@ p {
 .linkedinimg {
 	max-width: 5%;
 } 
+
 a {
 	color: #3e3542;
 	text-decoration: none; /* No underlining */
@@ -289,6 +292,7 @@ nav > ul {
 		padding: 20px 0 13px;
 		min-width: 641px;
 		max-width: 1263px;
+		max-width: 100%;
 	}
 
 	nav {
