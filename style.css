@@ -30,7 +30,8 @@ header {
 	box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
 	position: fixed;
 	top: 0;
-	max-width: 1263px;
+	max-width: 100%;
+	max-height: 500px;
 
 }
 body {
