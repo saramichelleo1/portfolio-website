@@ -154,6 +154,9 @@ p {
 .linkedinimg {
 	max-width: 5%;
 } 
+.resume {
+	align-content: center;
+}
 a {
 	color: #3e3542;
 	text-decoration: none; /* No underlining */
